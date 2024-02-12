@@ -32,4 +32,5 @@ return require('packer').startup(function(use)
 	use {
 		"williamboman/mason.nvim"
 	}
+	use 'ThePrimeagen/vim-be-good'
 end)
