@@ -5,4 +5,5 @@
 
 # install
 move this to `.config/nvim/`
-when in lua run `:PackerSync`
+
+then in lua run `:PackerSync`
