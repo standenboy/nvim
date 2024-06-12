@@ -1,5 +1,5 @@
 local lspconfig = require('lspconfig')
-local servers = { 'clangd', 'pylsp'}
+local servers = { 'clangd', 'pylsp', 'rust_analyzer', 'gopls'}
 for _, lsp in ipairs(servers) do
 	lspconfig[lsp].setup {
 		-- on_attach = my_custom_on_attach,
