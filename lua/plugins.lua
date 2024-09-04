@@ -7,6 +7,10 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
+	use 'sakhnik/nvim-gdb'
+	use 'lervag/vimtex'
+
+
 	use 'neovim/nvim-lspconfig' -- Collection of configurations for built-in LSP client
 	use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
 

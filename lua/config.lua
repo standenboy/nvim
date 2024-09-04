@@ -28,6 +28,9 @@ local function Ex()
 	vim.cmd 'Ex'
 end
 
+
+vim.g.vimtex_view_method = "zathura"
+
 vim.keymap.set('n', 'qw', close, opts)
 vim.keymap.set('n', 'gm', getman, opts)
 vim.keymap.set('n', '<leader>qf', quickfix, opts)
